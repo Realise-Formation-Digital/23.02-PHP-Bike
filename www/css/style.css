@@ -17,6 +17,11 @@ header {
     background-size: cover;
 }
 
+/* classe pour la taille de l'image de la page d'erreur */
+.error-img-size{
+    width: 20%;
+    height: auto;
+}
 
 /* disposition des photos dans le shop */
 
