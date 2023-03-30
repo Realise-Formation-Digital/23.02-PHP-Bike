@@ -25,20 +25,20 @@
                         <span class="my-auto mx-3 fw-bold">.</span>
                         <!--Navbar-Work button-->
                         <li class="nav-item my-auto mx-3 fw-bold">
-                            <a class="nav-link" aria-current="page" href="index.html#vintage">WORK</a>
+                            <a class="nav-link" aria-current="page" href="index.php#vintage">WORK</a>
                         </li>
                         <!--Navbar-Logo-->
                         <a class="navbar-brand" href="#"><img src="./pics/logo.png"
                                 class="img-fluid w-100 d-none d-lg-block"> </a>
                         <!--Navbar-Shop button-->
                         <li class="nav-item my-auto mx-3 fw-bold">
-                            <a class="nav-link" aria-current="page" href="index.html#shop">SHOP</a>
+                            <a class="nav-link" aria-current="page" href="index.php#shop">SHOP</a>
                         </li>
                         <!--Navbar-Point-->
                         <span class="my-auto mx-3">.</span>
                         <!--Navbar-buy a bike button-->
                         <li class="nav-item my-auto mx-3 fw-bold">
-                            <a class="nav-link" aria-current="page" href="index.html#commande">BUY A BIKE</a>
+                            <a class="nav-link" aria-current="page" href="index.php#commande">BUY A BIKE</a>
                         </li>
                         <!--Navbar-POINT button-->
                         <span class="my-auto mx-3">.</span>
@@ -49,7 +49,7 @@
                         <!--Navbar-POINT between-->
                         <span class="my-auto mx-3 fw-bold">.</span>
                         <li class="nav-item my-auto mx-3 fw-bold">
-                            <a class="nav-link" aria-current="page" href="#aboutus">ABOUT US</a>
+                            <a class="nav-link" aria-current="page" href="index.php#aboutus">ABOUT US</a>
                         </li>
                     </ul>
                 </div>
