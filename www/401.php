@@ -16,8 +16,8 @@
   <body>
     <div class="text-center align-self-center m-5">
       <div>
-        <h1>PAGE INTROUVABLE</h1>
-        <p>Nous sommes désolé, cette route n'existe pas ou est introuvable.</p>
+        <h1>ACCÈS PAS AUTORISÉ</h1>
+        <p>Nous sommes désolé, vous n'avez pas les autorisations pour accéder à cette page.</p>
       </div>
       <div>
         <img src="./resources/broken-nike-logo.png" alt="logo-404" class="error-img-size" />

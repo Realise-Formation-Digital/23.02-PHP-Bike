@@ -56,7 +56,7 @@
    }
    // if the session wasn't started it shows the error page
    else{
-      include "404.php";
+      include "401.php";
    }
 ?>
 <!-- APPEL LE FOOTER DE LA PAGE -->
