@@ -30,7 +30,7 @@
                     //Création de la variable session
                     $_SESSION['nickname'] = $user_data;
                     //Redirection vers une autre page après la création de la session
-                    header('Location: http://localhost:8303/connexion.php');
+                    header('Location: http://localhost:8302/connexion.php');
                     exit();
                 } else {
                     $error = "Erreur ! Le fichier n'existe pas";
