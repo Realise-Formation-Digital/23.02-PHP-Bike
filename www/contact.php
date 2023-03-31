@@ -24,10 +24,10 @@ include 'traitement.php'
 <div class="container">
     <div class="d-flex justify-content-center">
         <div class="col-8 m-4">
-            <form method="POST" action="index.php">
+            <form method="POST" action="contact.php">
                 <div class="form-group">
                     <div class="text-center">
-                        <h1>Contactez-moi!</h1>
+                        <h1>Contactez-nous!</h1>
                     </div>
                     <div class="d-flex">
                         <input type="text" name="prenom" placeholder="Nom" autocomplete="off" class="form-control"/>
