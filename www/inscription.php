@@ -41,12 +41,22 @@
             $error = "Le formulaire est incomplet";
         }
     }
-
-        include 'header.php';
     ?>
     
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Inscription</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <!-- APPEL LE HEADER DE LA PAGE -->
+    <?php include 'header.php'; ?>
     <h1>Inscription</h1>
-
     <form method="post">
         <div>
             <label for="pseudo">Pseudo</label>
@@ -61,6 +71,16 @@
     </form>
 
     <p class="error"><?php if($error) echo $error; ?></p>
+    <!-- APPEL LE HEADER DE LA PAGE -->
+    <?php include 'footer.php';?>
 
 
-<?php include 'footer.php';?>
+    <!-- Boostrap link for Js -->
+<script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+    crossorigin="anonymous"
+></script>
+    <!-- END JS LINK -->
+</body>
+</html>
